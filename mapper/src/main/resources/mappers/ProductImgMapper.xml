@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ds.dztmall.mapper.ProductImgMapper">
+
+    <sql id="allColumn">
+        id, item_id, url, sort, is_main, created_time, updated_time
+    </sql>
+
+    <resultMap id="BaseMap" type="com.ds.dztmall.domain.ProductImg">
+        <id column="id" property="id" />
+        <result column="item_id" property="itemId" />
+        <result column="url" property="url" />
+        <result column="sort" property="sort" />
+        <result column="is_main" property="isMain" />
+        <result column="created_time" property="createdTime" />
+        <result column="updated_time" property="updatedTime" />
+    </resultMap>
+
+    <select id="selectImgByProId" resultMap="BaseMap">
+        select
+        <include refid="allColumn"></include>
+        from product_img
+        where item_id=#{productId}
+    </select>
+    
+    <select id="selectMainImgByProId" resultMap="BaseMap">
+        select
+        <include refid="allColumn"></include>
+        from product_img
+        where is_main = '1' and item_id=#{productId}
+    </select>
+</mapper>

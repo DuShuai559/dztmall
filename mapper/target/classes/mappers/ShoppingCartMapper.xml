@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ds.dztmall.mapper.ShoppingCartMapper">
+    <sql id="allColumn">
+        cart_id, product_id, sku_id, user_id, cart_num, cart_time, product_price, sku_props
+    </sql>
+
+    <resultMap id="allColumnMap" type="com.ds.dztmall.domain.ShoppingCart">
+        <id column="cart_id" property="cartId"/>
+        <result column="product_id" property="productId"/>
+        <result column="product_id" property="productId"/>
+        <result column="sku_id" property="skuId"/>
+        <result column="user_id" property="userId"/>
+        <result column="cart_num" property="cartNum"/>
+        <result column="cart_time" property="cartTime"/>
+        <result column="product_price" property="productPrice"/>
+        <result column="sku_props" property="skuProps"/>
+    </resultMap>
+
+    <resultMap id="shoppingCartMap" type="com.ds.dztmall.vo.ShoppingCartVO">
+        <id column="cart_id" property="cartId"/>
+        <result column="product_id" property="productId"/>
+        <result column="product_id" property="productId"/>
+        <result column="sku_id" property="skuId"/>
+        <result column="user_id" property="userId"/>
+        <result column="cart_num" property="cartNum"/>
+        <result column="cart_time" property="cartTime"/>
+        <result column="product_price" property="productPrice"/>
+        <result column="sku_props" property="skuProps"/>
+        <result column="product_name" property="productName"/>
+        <result column="url" property="url"/>
+        <result column="original_price" property="originalPrice"/>
+        <result column="sell_price" property="sellPrice"/>
+    </resultMap>
+
+    <select id="selectShopCartByUserId" resultMap="shoppingCartMap">
+        select
+            sp.cart_id,
+            sp.product_id,
+            sp.sku_id,
+            sp.user_id,
+            sp.cart_num,
+            sp.cart_time,
+            sp.product_price,
+            sp.sku_props,
+            p.product_name,
+			pi.url,
+			ps.original_price,
+			ps.sell_price
+        from shopping_cart sp
+        inner join product p
+        on sp.product_id = p.product_id
+        inner join product_img pi
+		on sp.product_id = pi.item_id
+		inner join product_sku ps
+		on sp.sku_id = ps.sku_id
+		where sp.user_id = #{userId} and pi.is_main = 1
+
+    </select>
+
+</mapper>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ds.dztmall.mapper.CategoryMapper">
+
+    <sql id="allColumn">
+        category_id, category_name, category_level, parent_id, category_icon, category_slogan, category_pic, category_bg_color
+    </sql>
+
+    <resultMap id="categoryListMap" type="com.ds.dztmall.vo.CategoryVO">
+        <id column="category_id" property="categoryId" />
+        <result column="category_name" property="categoryName" />
+        <result column="category_level" property="categoryLevel" />
+        <result column="parent_id" property="parentId" />
+        <result column="category_icon" property="categoryIcon" />
+        <result column="category_slogan" property="categorySlogan" />
+        <result column="category_pic" property="categoryPic" />
+        <result column="category_bg_color" property="categoryBgColor" />
+        <collection property="categoryVOList" column="category_id" select="selectCategoryList" />
+    </resultMap>
+
+    <resultMap id="selectCategory1Product6" type="com.ds.dztmall.vo.CategoryVO2">
+        <id column="category_id" property="categoryId" />
+        <result column="category_name" property="categoryName" />
+        <result column="category_level" property="categoryLevel" />
+        <result column="parent_id" property="parentId" />
+        <result column="category_icon" property="categoryIcon" />
+        <result column="category_slogan" property="categorySlogan" />
+        <result column="category_pic" property="categoryPic" />
+        <result column="category_bg_color" property="categoryBgColor" />
+        <collection property="categoryVO2List" column="category_id" select="selectCategoryList" />
+        <collection property="productVOList" column="category_id" select="com.ds.dztmall.mapper.ProductMapper.selectPro6" />
+    </resultMap>
+
+    <select id="selectCategoryList" resultMap="categoryListMap">
+        select
+        <include refid="allColumn"></include>
+        from category
+        where parent_id = #{parentId}
+    </select>
+
+    <select id="selectFirstCategoryProduct6" resultMap="selectCategory1Product6">
+        select
+        <include refid="allColumn"></include>
+        from category
+        where category_level = 1
+    </select>
+</mapper>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ds.dztmall.mapper.ProductMapper">
+    <sql id="allColumn">
+        product_id,product_name,category_id,root_category_id,sold_num,product_status,content,create_time,update_time
+    </sql>
+
+    <resultMap id="proVOMap" type="com.ds.dztmall.vo.ProductVO">
+        <id column="product_id" property="productId" />
+        <result column="product_name" property="productName" />
+        <result column="category_id" property="categoryId" />
+        <result column="root_category_id" property="rootCategoryId" />
+        <result column="sold_num" property="soldNum" />
+        <result column="product_status" property="productStatus" />
+        <result column="content" property="content" />
+        <result column="create_time" property="createTime" />
+        <result column="update_time" property="updateTime" />
+        <collection property="productImgs" column="product_id" select="com.ds.dztmall.mapper.ProductImgMapper.selectImgByProId" />
+    </resultMap>
+
+    <resultMap id="pro6VOMap" type="com.ds.dztmall.vo.ProductVO">
+        <id column="product_id" property="productId" />
+        <result column="product_name" property="productName" />
+        <result column="category_id" property="categoryId" />
+        <result column="root_category_id" property="rootCategoryId" />
+        <result column="sold_num" property="soldNum" />
+        <result column="product_status" property="productStatus" />
+        <result column="content" property="content" />
+        <result column="create_time" property="createTime" />
+        <result column="update_time" property="updateTime" />
+        <collection property="productImg" column="product_id" select="com.ds.dztmall.mapper.ProductImgMapper.selectMainImgByProId" />
+    </resultMap>
+
+
+
+    <select id="selectRecommendPros" resultMap="proVOMap">
+        select
+        <include refid="allColumn"></include>
+        from product
+        order by sold_num desc
+        limit 3
+    </select>
+
+    <select id="selectPro6" resultMap="pro6VOMap">
+        select
+        <include refid="allColumn"></include>
+        from product
+        where root_category_id = #{category1Id}
+        order by sold_num desc
+        limit 6
+    </select>
+</mapper>
