@@ -10,6 +10,7 @@ import com.ds.dztmall.vo.ShoppingCartVO;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -57,5 +58,16 @@ public class ShoppingCartServiceImpl extends ServiceImpl<ShoppingCartMapper, Sho
             return new ReturnVO(ResponseStatus.SUCCESS, "success", null);
         }
         return new ReturnVO(ResponseStatus.FAIL, "error", null);
+    }
+
+    @Override
+    public ReturnVO listByCids(String cids) {
+        String[] split = cids.split(",");
+        List<Integer> cartIds = new ArrayList<>();
+        for (int i = 0; i < split.length; i++) {
+            cartIds.add(Integer.parseInt(split[i]));
+        }
+        List<ShoppingCartVO> shoppingCartVO = shoppingCartMapper.selectByCids(cartIds);
+        return new ReturnVO(ResponseStatus.SUCCESS, "success", shoppingCartVO);
     }
 }

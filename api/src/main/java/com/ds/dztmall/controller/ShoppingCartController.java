@@ -65,4 +65,10 @@ public class ShoppingCartController {
         return shoppingCartService.delShopCart(cartId);
     }
 
+    @ApiOperation("查询用户要购买的商品接口")
+    @GetMapping("listByCids")
+    public ReturnVO listByCids(@ApiParam(value = "要购买的商品id", required = true) String cids,
+    @ApiParam(value = "用户token，通过header传递", required = true) @RequestHeader String token){
+        return shoppingCartService.listByCids(cids);
+    }
 }

@@ -2,6 +2,7 @@ package com.ds.dztmall.service;
 
 import com.ds.dztmall.domain.UserAddr;
 import com.baomidou.mybatisplus.extension.service.IService;
+import com.ds.dztmall.vo.ReturnVO;
 
 /**
  * <p>
@@ -13,4 +14,5 @@ import com.baomidou.mybatisplus.extension.service.IService;
  */
 public interface UserAddrService extends IService<UserAddr> {
 
+    ReturnVO getUserAddrs(Integer userId);
 }

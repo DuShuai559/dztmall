@@ -21,4 +21,6 @@ public interface ShoppingCartService extends IService<ShoppingCart> {
     ReturnVO updateCartNum(ShoppingCart shoppingCart);
 
     ReturnVO delShopCart(Integer cartId);
+
+    ReturnVO listByCids(String cids);
 }

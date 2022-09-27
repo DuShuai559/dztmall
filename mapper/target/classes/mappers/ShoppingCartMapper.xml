@@ -55,7 +55,33 @@
 		inner join product_sku ps
 		on sp.sku_id = ps.sku_id
 		where sp.user_id = #{userId} and pi.is_main = 1
+    </select>
 
+    <select id="selectByCids" resultMap="shoppingCartMap">
+         select
+            sp.cart_id,
+            sp.product_id,
+            sp.sku_id,
+            sp.user_id,
+            sp.cart_num,
+            sp.cart_time,
+            sp.product_price,
+            sp.sku_props,
+            p.product_name,
+			pi.url,
+			ps.original_price,
+			ps.sell_price
+        from shopping_cart sp
+        inner join product p
+        on sp.product_id = p.product_id
+        inner join product_img pi
+		on sp.product_id = pi.item_id
+		inner join product_sku ps
+		on sp.sku_id = ps.sku_id
+		where pi.is_main = 1 and sp.cart_id in
+		<foreach collection="cartIds" item="cartId" open="(" close=")" separator=",">
+            #{cartId}
+        </foreach>
     </select>
 
 </mapper>

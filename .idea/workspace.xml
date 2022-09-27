@@ -1,193 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="29a3279b-e3ff-4d63-99bb-1b7dc09cb19e" name="Default Changelist" comment="2022-09-23">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/ds/ApiApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/ds/dztmall/config/CheckTokenInterceptorConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/ds/dztmall/controller/CategoryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/ds/dztmall/controller/IndexController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/ds/dztmall/controller/OrderItemController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/ds/dztmall/controller/OrdersController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/ds/dztmall/controller/ProductCommentsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/ds/dztmall/controller/ProductController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/ds/dztmall/controller/ProductImgController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/ds/dztmall/controller/ProductParamsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/ds/dztmall/controller/ProductSkuController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/ds/dztmall/controller/ShoppingCartController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/ds/dztmall/controller/UserAddrController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/ds/dztmall/controller/UserLoginHistoryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/ds/dztmall/controller/UsersController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/ds/dztmall/interceptor/CheckTokenInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/test/java/com/ds/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/ds/dztmall/config/Constant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/ds/dztmall/utils/DateUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/ds/dztmall/utils/MD5Util.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/ds/dztmall/vo/ResponseStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/ds/dztmall/vo/ReturnVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/classes/com/ds/dztmall/config/Constant.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/classes/com/ds/dztmall/utils/DateUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/classes/com/ds/dztmall/utils/MD5Util.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/classes/com/ds/dztmall/vo/ResponseStatus.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/classes/com/ds/dztmall/vo/ReturnVO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/ds/dztmall/domain/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/ds/dztmall/domain/IndexImg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/ds/dztmall/domain/OrderItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/ds/dztmall/domain/Orders.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/ds/dztmall/domain/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/ds/dztmall/domain/ProductComments.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/ds/dztmall/domain/ProductImg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/ds/dztmall/domain/ProductParams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/ds/dztmall/domain/ProductSku.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/ds/dztmall/domain/ShoppingCart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/ds/dztmall/domain/UserAddr.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/ds/dztmall/domain/UserLoginHistory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/ds/dztmall/domain/Users.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/ds/dztmall/vo/CategoryVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/ds/dztmall/vo/CategoryVO2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/ds/dztmall/vo/ProductCommentsVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/ds/dztmall/vo/ProductVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/ds/dztmall/vo/ShoppingCartVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/target/classes/com/ds/dztmall/domain/Category.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/target/classes/com/ds/dztmall/domain/IndexImg.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/target/classes/com/ds/dztmall/domain/OrderItem.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/target/classes/com/ds/dztmall/domain/Orders.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/target/classes/com/ds/dztmall/domain/Product.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/target/classes/com/ds/dztmall/domain/ProductComments.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/target/classes/com/ds/dztmall/domain/ProductImg.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/target/classes/com/ds/dztmall/domain/ProductParams.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/target/classes/com/ds/dztmall/domain/ProductSku.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/target/classes/com/ds/dztmall/domain/ShoppingCart.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/target/classes/com/ds/dztmall/domain/UserAddr.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/target/classes/com/ds/dztmall/domain/UserLoginHistory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/target/classes/com/ds/dztmall/domain/Users.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/target/classes/com/ds/dztmall/vo/CategoryVO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/target/classes/com/ds/dztmall/vo/CategoryVO2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/target/classes/com/ds/dztmall/vo/ProductCommentsVO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/target/classes/com/ds/dztmall/vo/ProductVO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/target/classes/com/ds/dztmall/vo/ShoppingCartVO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dztmall.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/src/main/java/com/ds/dztmall/config/MyBatisPlusGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/src/main/java/com/ds/dztmall/mapper/CategoryMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/src/main/java/com/ds/dztmall/mapper/IndexImgMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/src/main/java/com/ds/dztmall/mapper/OrderItemMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/src/main/java/com/ds/dztmall/mapper/OrdersMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/src/main/java/com/ds/dztmall/mapper/ProductCommentsMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/src/main/java/com/ds/dztmall/mapper/ProductImgMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/src/main/java/com/ds/dztmall/mapper/ProductMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/src/main/java/com/ds/dztmall/mapper/ProductParamsMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/src/main/java/com/ds/dztmall/mapper/ProductSkuMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/src/main/java/com/ds/dztmall/mapper/ShoppingCartMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/src/main/java/com/ds/dztmall/mapper/UserAddrMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/src/main/java/com/ds/dztmall/mapper/UserLoginHistoryMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/src/main/java/com/ds/dztmall/mapper/UsersMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/src/main/resources/mappers/CategoryMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/src/main/resources/mappers/IndexImgMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/src/main/resources/mappers/OrderItemMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/src/main/resources/mappers/OrdersMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/src/main/resources/mappers/ProductCommentsMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/src/main/resources/mappers/ProductImgMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/src/main/resources/mappers/ProductMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/src/main/resources/mappers/ProductParamsMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/src/main/resources/mappers/ProductSkuMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/src/main/resources/mappers/ShoppingCartMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/src/main/resources/mappers/UserAddrMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/src/main/resources/mappers/UserLoginHistoryMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/src/main/resources/mappers/UsersMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/target/classes/com/ds/dztmall/config/MyBatisPlusGenerator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/target/classes/com/ds/dztmall/mapper/CategoryMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/target/classes/com/ds/dztmall/mapper/IndexImgMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/target/classes/com/ds/dztmall/mapper/OrderItemMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/target/classes/com/ds/dztmall/mapper/OrdersMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/target/classes/com/ds/dztmall/mapper/ProductCommentsMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/target/classes/com/ds/dztmall/mapper/ProductImgMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/target/classes/com/ds/dztmall/mapper/ProductMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/target/classes/com/ds/dztmall/mapper/ProductParamsMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/target/classes/com/ds/dztmall/mapper/ProductSkuMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/target/classes/com/ds/dztmall/mapper/ShoppingCartMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/target/classes/com/ds/dztmall/mapper/UserAddrMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/target/classes/com/ds/dztmall/mapper/UserLoginHistoryMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/target/classes/com/ds/dztmall/mapper/UsersMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/target/classes/mappers/CategoryMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/target/classes/mappers/IndexImgMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/target/classes/mappers/OrderItemMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/target/classes/mappers/OrdersMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/target/classes/mappers/ProductCommentsMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/target/classes/mappers/ProductImgMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/target/classes/mappers/ProductMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/target/classes/mappers/ProductParamsMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/target/classes/mappers/ProductSkuMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/target/classes/mappers/ShoppingCartMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/target/classes/mappers/UserAddrMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/target/classes/mappers/UserLoginHistoryMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/target/classes/mappers/UsersMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/ds/dztmall/service/CategoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/ds/dztmall/service/IndexImgService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/ds/dztmall/service/OrderItemService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/ds/dztmall/service/OrdersService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/ds/dztmall/service/ProductCommentsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/ds/dztmall/service/ProductImgService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/ds/dztmall/service/ProductParamsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/ds/dztmall/service/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/ds/dztmall/service/ProductSkuService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/ds/dztmall/service/ShoppingCartService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/ds/dztmall/service/UserAddrService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/ds/dztmall/service/UserLoginHistoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/ds/dztmall/service/UsersService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/ds/dztmall/service/impl/CategoryServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/ds/dztmall/service/impl/IndexImgServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/ds/dztmall/service/impl/OrderItemServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/ds/dztmall/service/impl/OrdersServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/ds/dztmall/service/impl/ProductCommentsServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/ds/dztmall/service/impl/ProductImgServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/ds/dztmall/service/impl/ProductParamsServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/ds/dztmall/service/impl/ProductServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/ds/dztmall/service/impl/ProductSkuServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/ds/dztmall/service/impl/ShoppingCartServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/ds/dztmall/service/impl/UserAddrServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/ds/dztmall/service/impl/UserLoginHistoryServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/ds/dztmall/service/impl/UsersServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/target/classes/com/ds/dztmall/service/CategoryService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/target/classes/com/ds/dztmall/service/IndexImgService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/target/classes/com/ds/dztmall/service/OrderItemService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/target/classes/com/ds/dztmall/service/OrdersService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/target/classes/com/ds/dztmall/service/ProductCommentsService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/target/classes/com/ds/dztmall/service/ProductImgService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/target/classes/com/ds/dztmall/service/ProductParamsService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/target/classes/com/ds/dztmall/service/ProductService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/target/classes/com/ds/dztmall/service/ProductSkuService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/target/classes/com/ds/dztmall/service/ShoppingCartService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/target/classes/com/ds/dztmall/service/UserAddrService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/target/classes/com/ds/dztmall/service/UserLoginHistoryService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/target/classes/com/ds/dztmall/service/UsersService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/target/classes/com/ds/dztmall/service/impl/CategoryServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/target/classes/com/ds/dztmall/service/impl/IndexImgServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/target/classes/com/ds/dztmall/service/impl/OrderItemServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/target/classes/com/ds/dztmall/service/impl/OrdersServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/target/classes/com/ds/dztmall/service/impl/ProductCommentsServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/target/classes/com/ds/dztmall/service/impl/ProductImgServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/target/classes/com/ds/dztmall/service/impl/ProductParamsServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/target/classes/com/ds/dztmall/service/impl/ProductServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/target/classes/com/ds/dztmall/service/impl/ProductSkuServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/target/classes/com/ds/dztmall/service/impl/ShoppingCartServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/target/classes/com/ds/dztmall/service/impl/UserAddrServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/target/classes/com/ds/dztmall/service/impl/UserLoginHistoryServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/target/classes/com/ds/dztmall/service/impl/UsersServiceImpl.class" afterDir="false" />
+    <list default="true" id="29a3279b-e3ff-4d63-99bb-1b7dc09cb19e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/ds/dztmall/controller/ShoppingCartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/ds/dztmall/controller/ShoppingCartController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/ds/dztmall/controller/UserAddrController.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/ds/dztmall/controller/UserAddrController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mapper/src/main/java/com/ds/dztmall/mapper/ShoppingCartMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/mapper/src/main/java/com/ds/dztmall/mapper/ShoppingCartMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mapper/src/main/resources/mappers/ShoppingCartMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mapper/src/main/resources/mappers/ShoppingCartMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mapper/target/classes/com/ds/dztmall/mapper/ShoppingCartMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/mapper/target/classes/com/ds/dztmall/mapper/ShoppingCartMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mapper/target/classes/mappers/ShoppingCartMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mapper/target/classes/mappers/ShoppingCartMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/src/main/java/com/ds/dztmall/service/ShoppingCartService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/com/ds/dztmall/service/ShoppingCartService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/src/main/java/com/ds/dztmall/service/UserAddrService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/com/ds/dztmall/service/UserAddrService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/src/main/java/com/ds/dztmall/service/impl/ShoppingCartServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/com/ds/dztmall/service/impl/ShoppingCartServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/src/main/java/com/ds/dztmall/service/impl/UserAddrServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/com/ds/dztmall/service/impl/UserAddrServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/target/classes/com/ds/dztmall/service/ShoppingCartService.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/classes/com/ds/dztmall/service/ShoppingCartService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/target/classes/com/ds/dztmall/service/UserAddrService.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/classes/com/ds/dztmall/service/UserAddrService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/target/classes/com/ds/dztmall/service/impl/ShoppingCartServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/classes/com/ds/dztmall/service/impl/ShoppingCartServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/target/classes/com/ds/dztmall/service/impl/UserAddrServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/classes/com/ds/dztmall/service/impl/UserAddrServiceImpl.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -221,11 +50,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/api/src/main/java/com/ds/dztmall/controller/ShoppingCartController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1300">
-              <caret line="64" column="55" selection-start-line="64" selection-start-column="55" selection-end-line="64" selection-end-column="55" />
+            <state relative-caret-position="393">
+              <caret line="71" column="43" selection-start-line="71" selection-start-column="43" selection-end-line="71" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -236,17 +65,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/service/src/main/java/com/ds/dztmall/service/ShoppingCartService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="22" column="12" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="12" />
+            <state relative-caret-position="550">
+              <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mapper/src/main/resources/mappers/ShoppingCartMapper.xml">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/src/main/java/com/ds/dztmall/controller/UserAddrController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
-              <caret line="51" column="26" selection-start-line="51" selection-start-column="26" selection-end-line="51" selection-end-column="26" />
+              <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service/src/main/java/com/ds/dztmall/service/UserAddrService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -254,17 +92,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/service/src/main/java/com/ds/dztmall/service/impl/ShoppingCartServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1225">
-              <caret line="59" column="5" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
+            <state relative-caret-position="1325">
+              <caret line="64" selection-start-line="64" selection-end-line="64" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mapper/src/main/java/com/ds/dztmall/mapper/ShoppingCartMapper.java">
+        <entry file="file://$PROJECT_DIR$/service/src/main/java/com/ds/dztmall/service/impl/UserAddrServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+            <state relative-caret-position="575">
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
             </state>
           </provider>
         </entry>
@@ -280,6 +118,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>selectCategoryList</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
@@ -292,9 +135,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/api/src/main/java/com/ds/ApiApplication.java" />
-        <option value="$PROJECT_DIR$/api/src/main/java/com/ds/dztmall/controller/UsersController.java" />
-        <option value="$PROJECT_DIR$/service/src/main/java/com/ds/dztmall/service/IndexImgService.java" />
         <option value="$PROJECT_DIR$/service/src/main/java/com/ds/dztmall/service/impl/IndexImgServiceImpl.java" />
         <option value="$PROJECT_DIR$/api/src/main/java/com/ds/dztmall/controller/IndexImgController.java" />
         <option value="$PROJECT_DIR$/domain/src/main/java/com/ds/dztmall/domain/Users.java" />
@@ -311,7 +151,6 @@
         <option value="$PROJECT_DIR$/mapper/src/main/resources/mappers/ProductMapper.xml" />
         <option value="$PROJECT_DIR$/service/src/main/java/com/ds/dztmall/service/ProductService.java" />
         <option value="$PROJECT_DIR$/service/src/main/java/com/ds/dztmall/service/impl/ProductServiceImpl.java" />
-        <option value="$PROJECT_DIR$/api/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/service/src/main/java/com/ds/dztmall/service/ProductParamsService.java" />
         <option value="$PROJECT_DIR$/service/src/main/java/com/ds/dztmall/service/impl/ProductParamsServiceImpl.java" />
         <option value="$PROJECT_DIR$/common/src/test/java/com/ds/dztmall/Test.java" />
@@ -334,15 +173,19 @@
         <option value="$PROJECT_DIR$/domain/src/main/java/com/ds/dztmall/vo/CategoryVO.java" />
         <option value="$PROJECT_DIR$/domain/src/main/java/com/ds/dztmall/vo/ProductVO.java" />
         <option value="$PROJECT_DIR$/domain/src/main/java/com/ds/dztmall/vo/ProductCommentsVO.java" />
-        <option value="$PROJECT_DIR$/mapper/src/main/java/com/ds/dztmall/mapper/ShoppingCartMapper.java" />
         <option value="$PROJECT_DIR$/domain/src/main/java/com/ds/dztmall/domain/ProductSku.java" />
         <option value="$PROJECT_DIR$/domain/src/main/java/com/ds/dztmall/vo/ShoppingCartVO.java" />
         <option value="$PROJECT_DIR$/api/src/test/java/com/ds/Test.java" />
-        <option value="$PROJECT_DIR$/mapper/src/main/resources/mappers/ShoppingCartMapper.xml" />
         <option value="$PROJECT_DIR$/domain/src/main/java/com/ds/dztmall/domain/ShoppingCart.java" />
-        <option value="$PROJECT_DIR$/api/src/main/java/com/ds/dztmall/controller/ShoppingCartController.java" />
+        <option value="$PROJECT_DIR$/api/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/service/src/main/java/com/ds/dztmall/service/UserAddrService.java" />
+        <option value="$PROJECT_DIR$/service/src/main/java/com/ds/dztmall/service/impl/UserAddrServiceImpl.java" />
         <option value="$PROJECT_DIR$/service/src/main/java/com/ds/dztmall/service/ShoppingCartService.java" />
+        <option value="$PROJECT_DIR$/mapper/src/main/resources/mappers/ShoppingCartMapper.xml" />
+        <option value="$PROJECT_DIR$/mapper/src/main/java/com/ds/dztmall/mapper/ShoppingCartMapper.java" />
         <option value="$PROJECT_DIR$/service/src/main/java/com/ds/dztmall/service/impl/ShoppingCartServiceImpl.java" />
+        <option value="$PROJECT_DIR$/api/src/main/java/com/ds/dztmall/controller/ShoppingCartController.java" />
+        <option value="$PROJECT_DIR$/api/src/main/java/com/ds/dztmall/controller/UserAddrController.java" />
       </list>
     </option>
   </component>
@@ -362,63 +205,7 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="api" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="api" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="api" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-          <item name="org.springframework.boot:spring-boot-starter-web:2.7.2" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="api" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-          <item name="org.springframework.boot:spring-boot-starter-web:2.7.2" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-          <item name="org.springframework.boot:spring-boot-starter-json:2.7.2" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="common" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="common" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="domain" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="domain" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="dztmall" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="dztmall" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="dztmall" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-          <item name="clean" type="36feed69:MavenProjectsStructure$PluginNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </treeState>
   </component>
@@ -437,6 +224,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -577,6 +366,11 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="ds" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dztmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dztmall" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dztmall" type="b2602c69:ProjectViewProjectNode" />
@@ -824,12 +618,160 @@
               <item name="service" type="462c0819:PsiDirectoryNode" />
               <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="dztmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="dztmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-aop:5.3.22" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="dztmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-aop:5.3.22" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-aop-5.3.22.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dztmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-aop:5.3.22" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-aop-5.3.22.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dztmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-aop:5.3.22" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-aop-5.3.22.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dztmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-aop:5.3.22" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-aop-5.3.22.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="aop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dztmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-aop:5.3.22" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-aop-5.3.22.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="aop" type="462c0819:PsiDirectoryNode" />
+              <item name="framework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dztmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-core:5.3.22" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="dztmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-core:5.3.22" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-core-5.3.22.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dztmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-core:5.3.22" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-core-5.3.22.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dztmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-core:5.3.22" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-core-5.3.22.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dztmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-core:5.3.22" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-core-5.3.22.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="cglib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dztmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-core:5.3.22" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-core-5.3.22.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="cglib" type="462c0819:PsiDirectoryNode" />
+              <item name="proxy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dztmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-web:5.3.22" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="dztmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-web:5.3.22" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-web-5.3.22.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dztmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-web:5.3.22" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-web-5.3.22.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dztmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-web:5.3.22" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-web-5.3.22.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dztmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-web:5.3.22" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-web-5.3.22.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dztmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-web:5.3.22" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-web-5.3.22.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="method" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dztmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-web:5.3.22" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-web-5.3.22.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="method" type="462c0819:PsiDirectoryNode" />
+              <item name="support" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -955,8 +897,20 @@
       <workItem from="1663587209765" duration="6320000" />
       <workItem from="1663744261151" duration="5420000" />
       <workItem from="1663757066074" duration="608000" />
-      <workItem from="1663934651847" duration="1122000" />
+      <workItem from="1663934651847" duration="4938000" />
+      <workItem from="1664085384144" duration="1175000" />
+      <workItem from="1664181797618" duration="634000" />
+      <workItem from="1664193241895" duration="5490000" />
+      <workItem from="1664202543413" duration="610000" />
     </task>
+    <task id="LOCAL-00001" summary="2022-09-23">
+      <created>1663935932300</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1663935932300</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -986,7 +940,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98109000" />
+    <option name="totallyTimeSpent" value="109834000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -999,9 +953,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2660858" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2808311" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -1012,15 +965,15 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32956153" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.70579916" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.52758133" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.52549577" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32956153" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3286119" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32956153" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3286119" />
       <window_info anchor="bottom" id="Spring" order="13" weight="0.32956153" />
       <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.32956153" />
@@ -1076,6 +1029,46 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2022-09-23" />
     <option name="LAST_COMMIT_MESSAGE" value="2022-09-23" />
@@ -1085,106 +1078,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/mapper/src/main/resources/mappers/ProductImgMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="62" selection-start-line="8" selection-start-column="56" selection-end-line="8" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-dependencies/2.7.2/spring-boot-dependencies-2.7.2.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="1392" column="6" selection-start-line="1392" selection-start-column="6" selection-end-line="1392" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/test/java/com/ds/dztmall/Test.java" />
-    <entry file="file://$PROJECT_DIR$/common/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="54" column="21" selection-start-line="54" selection-start-column="21" selection-end-line="54" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="27" column="48" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mapper/src/main/java/com/ds/dztmall/mapper/ProductCommentsMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/JDK11.0.2/lib/src.zip!/java.base/java/text/DecimalFormat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-244">
-          <caret line="403" column="11" selection-start-line="403" selection-start-column="11" selection-end-line="403" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/ds/dztmall/config/Constant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/ds/dztmall/vo/PageHelper.java" />
-    <entry file="file://$PROJECT_DIR$/mapper/src/main/resources/mappers/ProductCommentsMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1175">
-          <caret line="47" column="26" selection-start-line="47" selection-start-column="26" selection-end-line="47" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/swagger/swagger-annotations/1.5.20/swagger-annotations-1.5.20.jar!/io/swagger/annotations/ApiModel.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.3.22/spring-aop-5.3.22.jar!/org/springframework/aop/framework/CglibAopProxy.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="487" selection-start-line="487" selection-end-line="487" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/ds/dztmall/service/UsersService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/ds/dztmall/vo/ResponseStatus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/ds/dztmall/service/impl/UsersServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="54" column="107" selection-start-line="54" selection-start-column="107" selection-end-line="54" selection-end-column="107" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/src/main/java/com/ds/dztmall/controller/UserAddrController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/api/src/main/java/com/ds/dztmall/controller/UsersController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
@@ -1303,13 +1196,6 @@
     <entry file="file://$PROJECT_DIR$/mapper/src/main/resources/mappers/UserLoginHistoryMapper.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/mapper/src/main/resources/mappers/CategoryMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="30" column="120" selection-start-line="30" selection-start-column="110" selection-end-line="30" selection-end-column="120" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/api/src/main/java/com/ds/dztmall/interceptor/CheckTokenInterceptor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="775">
@@ -1384,13 +1270,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/domain/src/main/java/com/ds/dztmall/vo/ShoppingCartVO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="24" column="46" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/domain/src/main/java/com/ds/dztmall/domain/ShoppingCart.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
@@ -1401,10 +1280,119 @@
     <entry file="file://$PROJECT_DIR$/mapper/src/main/resources/mappers/ProductSkuMapper.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/mapper/src/main/resources/mappers/CategoryMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="29" column="94" selection-start-line="29" selection-start-column="76" selection-end-line="29" selection-end-column="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-194" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mapper/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-618" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/domain/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-118" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1350">
+          <caret line="54" column="21" selection-start-line="54" selection-start-column="21" selection-end-line="54" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="27" column="48" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="17" column="57" selection-start-line="17" selection-start-column="57" selection-end-line="17" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/ds/dztmall/service/impl/UserLoginHistoryServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/ds/dztmall/service/impl/IndexImgServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-43">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/ds/dztmall/service/impl/CategoryServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/domain/src/main/java/com/ds/dztmall/vo/ShoppingCartVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="24" column="46" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.3.22/spring-web-5.3.22-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="204" selection-start-line="204" selection-end-line="204" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.3.22/spring-core-5.3.22.jar!/org/springframework/cglib/proxy/MethodProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="102" selection-start-line="102" selection-end-line="102" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.3.22/spring-aop-5.3.22.jar!/org/springframework/aop/framework/CglibAopProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="510" selection-start-line="510" selection-end-line="510" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mapper/src/main/resources/mappers/ShoppingCartMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-13">
+          <caret line="78" column="14" lean-forward="true" selection-start-line="78" selection-start-column="14" selection-end-line="78" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mapper/src/main/java/com/ds/dztmall/mapper/ShoppingCartMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/api/src/main/java/com/ds/dztmall/controller/ShoppingCartController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1300">
-          <caret line="64" column="55" selection-start-line="64" selection-start-column="55" selection-end-line="64" selection-end-column="55" />
+        <state relative-caret-position="393">
+          <caret line="71" column="43" selection-start-line="71" selection-start-column="43" selection-end-line="71" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1413,29 +1401,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/service/src/main/java/com/ds/dztmall/service/ShoppingCartService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="22" column="12" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="12" />
+        <state relative-caret-position="550">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/src/main/java/com/ds/dztmall/controller/UserAddrController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/ds/dztmall/service/UserAddrService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/service/src/main/java/com/ds/dztmall/service/impl/ShoppingCartServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1225">
-          <caret line="59" column="5" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
+        <state relative-caret-position="1325">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mapper/src/main/java/com/ds/dztmall/mapper/ShoppingCartMapper.java">
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/ds/dztmall/service/impl/UserAddrServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mapper/src/main/resources/mappers/ShoppingCartMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="51" column="26" selection-start-line="51" selection-start-column="26" selection-end-line="51" selection-end-column="26" />
+        <state relative-caret-position="575">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
         </state>
       </provider>
     </entry>
