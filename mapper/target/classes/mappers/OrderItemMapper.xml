@@ -2,4 +2,15 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.ds.dztmall.mapper.OrderItemMapper">
 
+    <insert id="insertMore">
+        insert into order_item values
+        <foreach collection="list" item="orderItem" separator=",">
+            (
+                #{orderItem.itemId},#{orderItem.orderId},#{orderItem.productId},#{orderItem.productName},
+                #{orderItem.productImg},#{orderItem.skuId},#{orderItem.skuName},#{orderItem.productPrice},
+                #{orderItem.buyCounts},#{orderItem.totalAmount},#{orderItem.basketDate},#{orderItem.buyTime},
+                #{orderItem.isComment}
+            )
+        </foreach>
+    </insert>
 </mapper>

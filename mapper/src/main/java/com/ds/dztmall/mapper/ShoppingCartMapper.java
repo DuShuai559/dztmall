@@ -18,5 +18,5 @@ public interface ShoppingCartMapper extends BaseMapper<ShoppingCart> {
 
     List<ShoppingCartVO> selectShopCartByUserId(Integer userId);
 
-    List<ShoppingCartVO> selectByCids(List<Integer> cartIds);
+    List<ShoppingCartVO> selectByCids(String[] cartIds);
 }

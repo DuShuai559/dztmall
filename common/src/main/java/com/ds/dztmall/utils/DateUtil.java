@@ -2,6 +2,7 @@ package com.ds.dztmall.utils;
 
 
 import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 
 /**
  * Author: DuShuai
@@ -13,8 +14,8 @@ public final class DateUtil {
         LocalDateTime localDateTime = LocalDateTime.now();
         return localDateTime;
     }
-//        DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy-MM-dd HH-mm-ss SSS");
-//        String time = localDateTime.format(dtf);
-//        return time;
-//    }
+
+    public static LocalDateTime strToLocalDateTime(String str){
+        return LocalDateTime.parse(str, DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss"));
+    }
 }

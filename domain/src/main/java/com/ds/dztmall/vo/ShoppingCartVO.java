@@ -33,4 +33,6 @@ public class ShoppingCartVO extends ShoppingCart implements Serializable {
     private Double originalPrice;
 
     private Double sellPrice;
+
+    private Integer skuStock;
 }

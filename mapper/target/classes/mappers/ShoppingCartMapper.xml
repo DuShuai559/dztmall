@@ -32,6 +32,22 @@
         <result column="original_price" property="originalPrice"/>
         <result column="sell_price" property="sellPrice"/>
     </resultMap>
+    <resultMap id="shoppingCartMap2" type="com.ds.dztmall.vo.ShoppingCartVO">
+        <id column="cart_id" property="cartId"/>
+        <result column="product_id" property="productId"/>
+        <result column="product_id" property="productId"/>
+        <result column="sku_id" property="skuId"/>
+        <result column="user_id" property="userId"/>
+        <result column="cart_num" property="cartNum"/>
+        <result column="cart_time" property="cartTime"/>
+        <result column="product_price" property="productPrice"/>
+        <result column="sku_props" property="skuProps"/>
+        <result column="stock" property="skuStock"/>
+        <result column="product_name" property="productName"/>
+        <result column="url" property="url"/>
+        <result column="original_price" property="originalPrice"/>
+        <result column="sell_price" property="sellPrice"/>
+    </resultMap>
 
     <select id="selectShopCartByUserId" resultMap="shoppingCartMap">
         select
@@ -57,7 +73,7 @@
 		where sp.user_id = #{userId} and pi.is_main = 1
     </select>
 
-    <select id="selectByCids" resultMap="shoppingCartMap">
+    <select id="selectByCids" resultMap="shoppingCartMap2">
          select
             sp.cart_id,
             sp.product_id,
@@ -70,7 +86,8 @@
             p.product_name,
 			pi.url,
 			ps.original_price,
-			ps.sell_price
+			ps.sell_price,
+			ps.stock
         from shopping_cart sp
         inner join product p
         on sp.product_id = p.product_id
@@ -79,7 +96,7 @@
 		inner join product_sku ps
 		on sp.sku_id = ps.sku_id
 		where pi.is_main = 1 and sp.cart_id in
-		<foreach collection="cartIds" item="cartId" open="(" close=")" separator=",">
+		<foreach collection="array" item="cartId" open="(" close=")" separator=",">
             #{cartId}
         </foreach>
     </select>

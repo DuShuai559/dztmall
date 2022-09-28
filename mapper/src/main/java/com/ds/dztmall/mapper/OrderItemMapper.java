@@ -3,6 +3,8 @@ package com.ds.dztmall.mapper;
 import com.ds.dztmall.domain.OrderItem;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
+import java.util.List;
+
 /**
  * <p>
  * 订单项/快照  Mapper 接口
@@ -13,4 +15,5 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
  */
 public interface OrderItemMapper extends BaseMapper<OrderItem> {
 
+    int insertMore(List<OrderItem> orderItemList);
 }

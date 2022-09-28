@@ -10,8 +10,8 @@
         <module name="common" />
         <module name="mapper" />
         <module name="domain" />
-        <module name="api" />
         <module name="service" />
+        <module name="api" />
       </profile>
     </annotationProcessing>
   </component>
